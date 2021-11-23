@@ -1,13 +1,10 @@
-import Head from "next/head";
+import { TopNavigationBar } from "../app/components";
 
 export default function Home() {
 	return (
 		<>
-			<Head>
-				<title>EO V1</title>
-			</Head>
+			<TopNavigationBar />
 
-			<h1>Welcome to EO V1!</h1>
 		</>
 	);
 }

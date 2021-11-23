@@ -1,0 +1,184 @@
+/* img {
+	height: inherit;
+	width: inherit;
+} */
+
+.navigation-content-wrapper {
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 5;
+	background-color: #020202;
+	transform: translateY(-200%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.navigation-content-wrapper .logo-icon {
+	height: 80px;
+	position: absolute;
+	top: 3%;
+	left: 2.5%;
+	opacity: 0.8;
+	z-index: 2;
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+.navigation-content-wrapper .logo-icon:hover {
+	opacity: 1;
+	transform: rotate(360deg);
+}
+
+.navigation-close {
+	position: absolute;
+	top: 6%;
+	right: 4%;
+	padding: 10px;
+	cursor: pointer;
+	transition: all.3s ease;
+	opacity: 0.8;
+}
+
+.navigation-close:hover {
+	opacity: 1;
+	transform: rotate(90deg);
+}
+
+.close-icon {
+	height: 2px;
+	width: 35px;
+	background-color: whitesmoke;
+	display: block;
+	margin: 4px;
+	cursor: pointer;
+	padding: 1px;
+	border-radius: 20px;
+}
+
+.close-first {
+	transform: rotate(45deg);
+}
+
+.close-second {
+	transform: rotate(-45deg);
+}
+
+.navigation-links-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.navigation-links-wrapper .link {
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	opacity: 0.7;
+	transition: all 0.4s ease;
+}
+
+.navigation-links-wrapper .link:hover {
+	opacity: 1;
+}
+
+.navigation-links-wrapper .link::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: flex;
+	justify-content: center;
+	transform: translate(-50%, -50%);
+	align-items: center;
+	font-size: 5em;
+	font-weight: 400;
+	font-family: monoton;
+	color: rgb(255, 255, 255, 0.1);
+	z-index: 1;
+	pointer-events: none;
+	opacity: 0;
+	letter-spacing: 100px;
+	transition: all 0.4s ease;
+}
+
+.navigation-links-wrapper .link:hover::before {
+	content: attr(big-overlay-text);
+	opacity: 1;
+	letter-spacing: 10px;
+}
+
+.navigation-bar {
+	position: fixed;
+	height: 100px;
+	width: 100%;
+	z-index: 3;
+	padding: 10px;
+	background: transparent;
+	overflow: hidden;
+}
+
+.navigation-bar .logo-icon {
+	height: 80px;
+	position: absolute;
+	top: 15%;
+	left: 2.5%;
+	opacity: 0.8;
+	transition: all 0.4s ease;
+}
+
+.navigation-bar .logo-icon:hover {
+	opacity: 1;
+	transform: rotate(360deg);
+}
+
+.menubar {
+	position: absolute;
+	right: 4%;
+	top: 40%;
+	cursor: pointer;
+	opacity: 0.8;
+	transition: all 0.4s ease;
+}
+
+.menubar .menu-open-icon {
+	position: relative;
+	background-color: transparent;
+	height: 2px;
+	width: 35px;
+	display: block;
+	margin: 6px;
+	border-radius: 20px;
+}
+
+.menubar ::before {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	right: 0;
+	background-color: whitesmoke;
+	transition: all 0.5s ease;
+}
+
+.menubar:hover {
+	opacity: 1;
+}
+
+.menubar .first-icon::before {
+	width: 50%;
+}
+
+.menubar .second-icon::before {
+	width: 75%;
+}
+
+.menubar:hover ::before,
+.menubar:hover ::before {
+	width: 100%;
+}
