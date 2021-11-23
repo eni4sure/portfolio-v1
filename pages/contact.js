@@ -7,7 +7,7 @@ import nameContactIcon from "../public/assets/images/contact-page/icon-name.png"
 import locationContactIcon from "../public/assets/images/contact-page/icon-location.png";
 import emailContactIcon from "../public/assets/images/contact-page/icon-email.png";
 
-export default function Contact() {
+export default function Contact({ pageViews }) {
 	const [contactFormData, setContactFormData] = React.useState({
 		name: "",
 		email: "",
@@ -162,7 +162,7 @@ export default function Contact() {
 				</div>
 			</div>
 
-			<Footer />
+			<Footer pageViews={pageViews} />
 		</>
 	);
 }

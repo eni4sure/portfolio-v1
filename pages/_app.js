@@ -5,6 +5,7 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
 	const [isLoading, setIsLoading] = React.useState(true);
+	const [pageViews, setPageViews] = React.useState(0);
 
 	const removeLoading = () => {
 		setTimeout(() => {
@@ -17,6 +18,14 @@ function MyApp({ Component, pageProps }) {
 		Router.events.on("routeChangeStart", () => setIsLoading(true));
 		Router.events.on("routeChangeComplete", () => removeLoading());
 		Router.events.on("routeChangeError", () => removeLoading());
+
+		// Count page views
+		const fetchPageViews = async () => {
+			const res = await fetch("https://api.countapi.xyz/hit/eniolaosabiya.com");
+			const json = await res.json();
+			setPageViews(json.value);
+		};
+		fetchPageViews();
 	}, []);
 
 	return (
@@ -45,7 +54,7 @@ function MyApp({ Component, pageProps }) {
 				<meta property="twitter:image" content="https://eniolaosabiya.com/assets/site-preview.png" />
 			</Head>
 
-			{isLoading ? <div className="page-switch-animation" /> : <Component {...pageProps} />}
+			{isLoading ? <div className="page-switch-animation" /> : <Component pageViews={pageViews} {...pageProps} />}
 		</>
 	);
 }

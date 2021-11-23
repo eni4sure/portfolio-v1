@@ -9,7 +9,7 @@ import linkedinSvgIcon from "../public/assets/images/social-icon/social-icon-lin
 import twitterSvgIcon from "../public/assets/images/social-icon/social-icon-twitter.svg";
 import contactSendEmailSvgIcon from "../public/assets/images/contact-icons/contact-send-email.svg";
 
-export default function Home() {
+export default function Home({ pageViews }) {
 	return (
 		<>
 			<TopNavigationBar />

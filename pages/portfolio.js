@@ -23,7 +23,7 @@ import papayaexPreviewImage from "../public/assets/images/portfolio/portfolio-pa
 import facedetectorPreviewImage from "../public/assets/images/portfolio/portfolio-facedetector.png";
 import lmsPreviewImage from "../public/assets/images/portfolio/portfolio-lms.png";
 
-export default function Portfolio() {
+export default function Portfolio({ pageViews }) {
 	return (
 		<>
 			<Head>
@@ -48,9 +48,7 @@ export default function Portfolio() {
 						</div>
 						<div className="portfolio-text">
 							<h2>Eniola Osabiya - v1</h2>
-							<p>
-								This is my personal portfolio website (v1). Built with NextJS 😊 
-							</p>
+							<p>This is my personal portfolio website (v1). Built with NextJS 😊</p>
 							<div className="button-wrapper">
 								<a href="https://eniolaosabiya.com" target="_blank" rel="noreferrer">
 									<button>
@@ -488,7 +486,7 @@ export default function Portfolio() {
 				</div>
 			</div>
 
-			<Footer />
+			<Footer pageViews={pageViews} />
 		</>
 	);
 }

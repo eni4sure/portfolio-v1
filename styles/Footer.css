@@ -16,3 +16,10 @@
 	font-weight: 400;
 	opacity: 1;
 }
+
+.footer .footer-text .small {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 12px;
+	opacity: 1;
+}

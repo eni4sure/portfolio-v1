@@ -7,7 +7,7 @@ import debugSvgIcon from "../public/assets/images/services-icon/services-debug.s
 import apiSvgIcon from "../public/assets/images/services-icon/services-api.svg";
 import deploySvgIcon from "../public/assets/images/services-icon/services-deploy.svg";
 
-export default function About() {
+export default function About({ pageViews }) {
 	return (
 		<>
 			<Head>
@@ -211,7 +211,7 @@ export default function About() {
 				</div>
 			</div>
 
-			<Footer />
+			<Footer pageViews={pageViews} />
 		</>
 	);
 }
