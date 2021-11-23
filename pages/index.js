@@ -2,6 +2,13 @@ import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import { TopNavigationBar } from "../app/components";
 
+import EniolaOsabiyaImage from "../public/assets/images/eniola-osabiya.png";
+import instagramSvgIcon from "../public/assets/images/social-icon/social-icon-instagram.svg";
+import githubSvgIcon from "../public/assets/images/social-icon/social-icon-github.svg";
+import linkedinSvgIcon from "../public/assets/images/social-icon/social-icon-linkedin.svg";
+import twitterSvgIcon from "../public/assets/images/social-icon/social-icon-twitter.svg";
+import contactSendEmailSvgIcon from "../public/assets/images/contact-icons/contact-send-email.svg";
+
 export default function Home() {
 	return (
 		<>
@@ -10,16 +17,16 @@ export default function Home() {
 			<div className="home-section-wrapper">
 				<div className="social-media-links">
 					<a href="https://instagram.com/eni4sure" target="_blank" rel="noreferrer" className="social-media">
-						<Image src="/assets/images/social-icon/social-icon-instagram.svg" width={30} height={30} alt="instagram-logo" />
+						<Image src={instagramSvgIcon} width={30} height={30} alt="instagram-logo" />
 					</a>
 					<a href="https://github.com/eni4sure" target="_blank" rel="noreferrer" className="social-media">
-						<Image src="/assets/images/social-icon/social-icon-github.svg" width={30} height={30} alt="instagram-logo" />
+						<Image src={githubSvgIcon} width={30} height={30} alt="instagram-logo" />
 					</a>
 					<a href="https://linkedin.com/in/eniola-osabiya" target="_blank" rel="noreferrer" className="social-media">
-						<Image src="/assets/images/social-icon/social-icon-linkedin.svg" width={30} height={30} alt="instagram-logo" />
+						<Image src={linkedinSvgIcon} width={30} height={30} alt="instagram-logo" />
 					</a>
 					<a href="https://twitter.com/eni4sure" target="_blank" rel="noreferrer" className="social-media">
-						<Image src="/assets/images/social-icon/social-icon-twitter.svg" width={30} height={30} alt="instagram-logo" />
+						<Image src={twitterSvgIcon} width={30} height={30} alt="instagram-logo" />
 					</a>
 				</div>
 				<div className="home-content">
@@ -38,7 +45,7 @@ export default function Home() {
 						</div>
 						<div className="contact-icons">
 							<a href="mailto:eosabiya@gmail.com" className="contactpic">
-								<Image src="/assets/images/contact-icons/contact-send-email.svg" width={25} height={25} alt="email-pic" />
+								<Image src={contactSendEmailSvgIcon} width={25} height={25} alt="email-pic" />
 							</a>
 							{/* <a className="contactpic">
 								<Image src="/assets/images/contact-icons/contact-phone-call.svg" width={25} height={25} alt="phone-pic" />
@@ -48,7 +55,7 @@ export default function Home() {
 				</div>
 				<div className="home-image">
 					<div className="img-container">
-						<Image src="/assets/images/eniola-osabiya.png" alt="logo" layout="fill" />
+						<Image src={EniolaOsabiyaImage} placeholder="blur" alt="Eniola Osabiya" layout="fill" />
 					</div>
 				</div>
 			</div>

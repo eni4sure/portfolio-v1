@@ -1,7 +1,18 @@
+import React from "react";
 import Head from "next/head";
+import Router from "next/router";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
+	const [isLoading, setIsLoading] = React.useState(true);
+
+	React.useEffect(() => {
+		//Binding router events.
+		Router.events.on("routeChangeStart", () => setIsLoading(true));
+		Router.events.on("routeChangeComplete", () => setIsLoading(false));
+		Router.events.on("routeChangeError", () => setIsLoading(false));
+	}, []);
+
 	return (
 		<>
 			<Head>
@@ -27,6 +38,8 @@ function MyApp({ Component, pageProps }) {
 				<meta property="twitter:description" content="17yo FullStack Dev, #TeensInTech Advocate, DevOps Engineer" />
 				<meta property="twitter:image" content="https://eniolaosabiya.com/assets/site-preview.png" />
 			</Head>
+
+			{isLoading && <div className="page-switch-animation" />}
 
 			<Component {...pageProps} />
 		</>
