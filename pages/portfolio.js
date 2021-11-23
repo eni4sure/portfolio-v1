@@ -2,11 +2,14 @@ import Head from "next/head";
 import Image from "next/image";
 import { TopNavigationBar, Footer } from "../app/components";
 
+import mywebsitev1PreviewImage from "../public/assets/images/portfolio/portfolio-mywebsitev1.png";
 import zurichatPreviewImage from "../public/assets/images/portfolio/portfolio-zurichat.png";
 import zurichessPreviewImage from "../public/assets/images/portfolio/portfolio-zurichess.png";
 import fixlancerPreviewImage from "../public/assets/images/portfolio/portfolio-fixlancer.png";
+import reliantgadgetsPreviewImage from "../public/assets/images/portfolio/portfolio-reliantgadgets.png";
 import medicreenPreviewImage from "../public/assets/images/portfolio/portfolio-medicreen.png";
 import tertPreviewImage from "../public/assets/images/portfolio/portfolio-tert.png";
+import customerpaymePreviewImage from "../public/assets/images/portfolio/portfolio-customerpayme.png";
 // import mysvotePreviewImage from "../public/assets/images/portfolio/portfolio-mysvote.png";
 import nuledgePreviewImage from "../public/assets/images/portfolio/portfolio-nuledge.png";
 import oricertPreviewImage from "../public/assets/images/portfolio/portfolio-oricert.png";
@@ -24,7 +27,7 @@ export default function Portfolio() {
 	return (
 		<>
 			<Head>
-				<title>Portfolio &mdash; Eniola Osabiya || @eni4sure</title>{" "}
+				<title>Portfolio &mdash; Eniola Osabiya || @eni4sure</title>
 			</Head>
 
 			<TopNavigationBar />
@@ -33,11 +36,33 @@ export default function Portfolio() {
 				<div className="portfolio-header">
 					<span className="color"> My </span> Portfolio
 					<span className="header-caption">
-						{" "}
-						Some Of My <span className="color"> Works / Projects</span> I&#39;ve worked on
+						Some Of the <span className="color"> Works / Projects</span> I&#39;ve done.
 					</span>
 				</div>
 				<div className="portfolio-content">
+					<div className="portfolio">
+						<div className="portfolio-image">
+							<div className="img-container">
+								<Image src={mywebsitev1PreviewImage} placeholder="blur" alt="zurichat-porject-preview-image" />
+							</div>
+						</div>
+						<div className="portfolio-text">
+							<h2>Eniola Osabiya - v1</h2>
+							<p>
+								This is my personal portfolio website (v1). Built with NextJS 😊 
+							</p>
+							<div className="button-wrapper">
+								<a href="https://eniolaosabiya.com" target="_blank" rel="noreferrer">
+									<button>
+										<span className="index">
+											View Project
+											<i className="gg-arrow-right" />
+										</span>
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
@@ -54,7 +79,6 @@ export default function Portfolio() {
 								<a href="https://zuri.chat/" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
@@ -71,12 +95,11 @@ export default function Portfolio() {
 						</div>
 						<div className="portfolio-text">
 							<h2>ZuriChat - Chess Plugin</h2>
-							<p>Chess is a board game played between two players. I worked on a language agnostic chess plugin for zuri.chat with realtime communications.</p>
+							<p>Chess is a board game played between two players. I worked on a language agnostic chess plugin for zuri.chat with realtime communications and game updates.</p>
 							<div className="button-wrapper">
-								<a href="https://zuri.chat/" target="_blank" rel="noreferrer">
+								<a href="https://chess.zuri.chat/chess" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
@@ -98,7 +121,27 @@ export default function Portfolio() {
 								<a href="https://fixlancer.com/" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
+											View Project
+											<i className="gg-arrow-right" />
+										</span>
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div className="portfolio">
+						<div className="portfolio-image">
+							<div className="img-container">
+								<Image src={reliantgadgetsPreviewImage} placeholder="blur" alt="medicreen-porject-preview-image" />
+							</div>
+						</div>
+						<div className="portfolio-text">
+							<h2>Reliant Gadgets</h2>
+							<p>Reliant Gadgets is a one-stop online techstore to get gadgets, e.g Phones, Laptops, Accessories, Tablets, Cameras, and more.</p>
+							<div className="button-wrapper">
+								<a href="https://reliantgadgets.com/" target="_blank" rel="noreferrer">
+									<button>
+										<span className="index">
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
@@ -123,7 +166,6 @@ export default function Portfolio() {
 								<a href="https://medicreen.netlify.app/" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
@@ -145,7 +187,29 @@ export default function Portfolio() {
 								<a href="https://tert.me" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
+											View Project
+											<i className="gg-arrow-right" />
+										</span>
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div className="portfolio">
+						<div className="portfolio-image">
+							<div className="img-container">
+								<Image src={customerpaymePreviewImage} placeholder="blur" alt="tert-porject-preview-image" />
+							</div>
+						</div>
+						<div className="portfolio-text">
+							<h2>CustomerPay Me</h2>
+							<p>
+								CustomerPayMe is a debt tracking web/mobile app. CustomerPayMe helps you to keep track of your debtors and sends automatic reminders to remind them to pay their debt.
+							</p>
+							<div className="button-wrapper">
+								<a href="https://customerpay.me/" target="_blank" rel="noreferrer">
+									<button>
+										<span className="index">
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
@@ -155,26 +219,26 @@ export default function Portfolio() {
 						</div>
 					</div>
 					{/* <div class="portfolio">
-          <div class="portfolio-image">
-              <div class="img-container">
-                  <Image src={mysvotePreviewImage} placeholder="blur" alt="mysvote-porject-preview-image">
-              </div>
-          </div>
-          <div class="portfolio-text">
-              <h2>MySVote</h2>
-              <p>
-                  MySVote is a voting system for individuals and organizations to create, host, organize and
-                  monitor polls for their personal needs.
-              </p>
-              <div class="button-wrapper">
-                  <a href="https://mysvote.com" target="_blank" rel="noreferrer">
-                      <button>
-                          <span class="index"> View Project<i class="gg-arrow-right"></i></span>
-                      </button>
-                  </a>
-              </div>
-          </div>
-      </div> */}
+						<div class="portfolio-image">
+							<div class="img-container">
+								<Image src={mysvotePreviewImage} placeholder="blur" alt="mysvote-porject-preview-image">
+							</div>
+						</div>
+						<div class="portfolio-text">
+							<h2>MySVote</h2>
+							<p>
+								MySVote is a voting system for individuals and organizations to create, host, organize and
+								monitor polls for their personal needs.
+							</p>
+							<div class="button-wrapper">
+								<a href="https://mysvote.com" target="_blank" rel="noreferrer">
+									<button>
+										<span class="index"> View Project<i class="gg-arrow-right"></i></span>
+									</button>
+								</a>
+							</div>
+						</div>
+					</div> */}
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
@@ -191,7 +255,6 @@ export default function Portfolio() {
 								<a href="https://nuledge.com" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
@@ -208,12 +271,11 @@ export default function Portfolio() {
 						</div>
 						<div className="portfolio-text">
 							<h2>OriCert</h2>
-							<p>OriCert is a certificate uploading and verification platform for Organisations and Nigerian Universities. I built it for the project defence of a teacher.</p>
+							<p>OriCert is a certificate uploading and verification platform for Organisations and Nigerian Universities. I built this for a freelance project.</p>
 							<div className="button-wrapper">
 								<a href="https://oricert-ng.000webhostapp.com/" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
@@ -235,7 +297,6 @@ export default function Portfolio() {
 								<a href="https://eni4sure.github.io/dryjokes/" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
@@ -253,14 +314,13 @@ export default function Portfolio() {
 						<div className="portfolio-text">
 							<h2>Nurturing Minds Daycare</h2>
 							<p>
-								Nurturing Minds Daycare is a project I worked on while working at Parmz Technologies. It&#39;s an app to used to manage the curriculum and admin day-to-day activities
-								of a daycare.
+								Nurturing Minds Daycare is a project I worked on while working at Parmz Technologies. It&#39;s a web app to used to manage the curriculum and admin day-to-day
+								activities for running a daycare.
 							</p>
 							<div className="button-wrapper">
 								<a href="https://nanadaycare.org/" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
@@ -278,14 +338,13 @@ export default function Portfolio() {
 						<div className="portfolio-text">
 							<h2>EdSofta</h2>
 							<p>
-								EdSofta is an app used to prepare for exams like JAMB UTME, WAEC SSCE, and Junior and Senior Secondary School exams in Nigeria. I built the Landing Pages during the
+								EdSofta is an app used to prepare for exams like JAMB UTME, WAEC SSCE, and Junior and Senior Secondary School exams in Nigeria. I worked on the Landing Pages during the
 								early stage of the startup.
 							</p>
 							<div className="button-wrapper">
 								<a href="https://edsofta.com" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
@@ -310,7 +369,6 @@ export default function Portfolio() {
 								<a href="https://domathz.web.app" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
@@ -332,7 +390,6 @@ export default function Portfolio() {
 								<a href="https://eni4sure.github.io/covid19-chatbot/" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
@@ -354,7 +411,6 @@ export default function Portfolio() {
 								<a href="https://mfmteens.org/" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
@@ -371,12 +427,11 @@ export default function Portfolio() {
 						</div>
 						<div className="portfolio-text">
 							<h2>A website for @papaya_ex</h2>
-							<p>A simple website built for an instagram influencer @papaya_ex</p>
+							<p>A website built for an instagram influencer @papaya_ex</p>
 							<div className="button-wrapper">
 								<a href="https://eni4sure.github.io/papaya-ex/" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
@@ -393,12 +448,11 @@ export default function Portfolio() {
 						</div>
 						<div className="portfolio-text">
 							<h2>A face Expression Detector</h2>
-							<p>A simple web app using FaceApi.js to detect face expression/mood of a person.</p>
+							<p>A web app using FaceApi.js to detect face expression/mood of a person.</p>
 							<div className="button-wrapper">
 								<a href="https://eni4sure.github.io/face-expression-detector/" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
@@ -423,7 +477,6 @@ export default function Portfolio() {
 								<a href="https://mfmteens.org/library" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
-											{" "}
 											View Project
 											<i className="gg-arrow-right" />
 										</span>
