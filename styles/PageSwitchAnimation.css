@@ -3,8 +3,8 @@
 	height: 300vh;
 	background-color: #046d33;
 	opacity: 1;
-	animation: pageswitchanimation 1.5s linear;
-	/* display: none; */
+	animation: pageswitchanimation 1s linear;
+	animation-iteration-count: infinite;
 	transition: all 0.4s ease;
 	z-index: 100;
 	position: fixed;

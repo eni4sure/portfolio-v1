@@ -6,11 +6,17 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }) {
 	const [isLoading, setIsLoading] = React.useState(true);
 
+	const removeLoading = () => {
+		setTimeout(() => {
+			setIsLoading(false);
+		}, 1000);
+	};
+
 	React.useEffect(() => {
-		//Binding router events.
+		removeLoading();
 		Router.events.on("routeChangeStart", () => setIsLoading(true));
-		Router.events.on("routeChangeComplete", () => setIsLoading(false));
-		Router.events.on("routeChangeError", () => setIsLoading(false));
+		Router.events.on("routeChangeComplete", () => removeLoading());
+		Router.events.on("routeChangeError", () => removeLoading());
 	}, []);
 
 	return (
@@ -39,9 +45,7 @@ function MyApp({ Component, pageProps }) {
 				<meta property="twitter:image" content="https://eniolaosabiya.com/assets/site-preview.png" />
 			</Head>
 
-			{isLoading && <div className="page-switch-animation" />}
-
-			<Component {...pageProps} />
+			{isLoading ? <div className="page-switch-animation" /> : <Component {...pageProps} />}
 		</>
 	);
 }

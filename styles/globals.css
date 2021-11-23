@@ -1,12 +1,3 @@
-/* Pages */
-@import url("Home.css");
-@import url("About.css");
-
-/* Components */
-@import url("Footer.css");
-@import url("TopNavigationBar.css");
-@import url("PageSwitchAnimation.css");
-
 @import url("https://fonts.googleapis.com/css?family=Monoton&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
 
@@ -42,3 +33,12 @@ a {
 html {
 	background: #101010;
 }
+
+/* Pages */
+@import url("Home.css");
+@import url("About.css");
+
+/* Components */
+@import url("Footer.css");
+@import url("TopNavigationBar.css");
+@import url("PageSwitchAnimation.css");
