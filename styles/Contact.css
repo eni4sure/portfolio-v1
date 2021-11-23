@@ -13,7 +13,7 @@
 	align-items: center;
 	justify-content: center;
 	font-size: 45px;
-	color: whitesmoke;
+	color: #fff;
 	padding: 10px;
 	padding-bottom: 30px;
 	padding-top: 60px;
@@ -22,7 +22,7 @@
 
 .contact-header-caption {
 	padding: 10px;
-	color: whitesmoke;
+	color: #fff;
 	opacity: 0.9;
 	font-size: 18px;
 }
@@ -48,7 +48,7 @@
 .form-header {
 	font-size: 24px;
 	font-weight: 400;
-	color: whitesmoke;
+	color: #fff;
 	padding: 28px;
 }
 
@@ -78,7 +78,7 @@
 	outline: none;
 	background: #050505;
 	border: none;
-	color: whitesmoke;
+	color: #fff;
 	font-size: 18px;
 }
 
@@ -90,7 +90,7 @@
 	outline: none;
 	background: #050505;
 	border: none;
-	color: whitesmoke;
+	color: #fff;
 	font-size: 18px;
 }
 
@@ -103,14 +103,14 @@
 	outline: none;
 	background: #050505;
 	border: none;
-	color: whitesmoke;
+	color: #fff;
 	font-size: 18px;
 }
 
 .myForm button {
 	padding: 8px 24px;
 	font-size: 20px;
-	color: whitesmoke;
+	color: #fff;
 	background: #046d33;
 	opacity: 0.8;
 	margin: 20px;
@@ -152,7 +152,7 @@
 	z-index: 2;
 	font-size: 24px;
 	font-weight: 400;
-	color: whitesmoke;
+	color: #fff;
 	padding: 30px;
 }
 
@@ -174,7 +174,7 @@
 }
 
 .contact-info-icon-text {
-	color: whitesmoke;
+	color: #fff;
 	padding: 15px;
 }
 

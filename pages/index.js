@@ -47,9 +47,6 @@ export default function Home() {
 							<a href="mailto:eosabiya@gmail.com" className="contactpic">
 								<Image src={contactSendEmailSvgIcon} width={25} height={25} alt="email-pic" />
 							</a>
-							{/* <a className="contactpic">
-								<Image src="/assets/images/contact-icons/contact-phone-call.svg" width={25} height={25} alt="phone-pic" />
-							</a> */}
 						</div>
 					</div>
 				</div>

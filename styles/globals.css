@@ -35,6 +35,11 @@ html {
 	background: #101010;
 }
 
+.color {
+	color: #046d33;
+	transition: all 0.4s ease;
+}
+
 /* Pages */
 @import url("Home.css");
 @import url("About.css");

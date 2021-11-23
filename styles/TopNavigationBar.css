@@ -50,7 +50,7 @@
 .close-icon {
 	height: 2px;
 	width: 35px;
-	background-color: whitesmoke;
+	background-color: #fff;
 	display: block;
 	margin: 4px;
 	cursor: pointer;
@@ -162,7 +162,7 @@
 	width: 100%;
 	top: 0;
 	right: 0;
-	background-color: whitesmoke;
+	background-color: #fff;
 	transition: all 0.5s ease;
 }
 

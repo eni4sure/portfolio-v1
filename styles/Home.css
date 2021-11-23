@@ -39,7 +39,7 @@
 	position: absolute;
 	align-items: center;
 	justify-content: center;
-	color: whitesmoke;
+	color: #fff;
 	font-weight: 400;
 	letter-spacing: 1px;
 	flex-direction: column;
@@ -51,7 +51,6 @@
 	z-index: 2;
 	text-align: center;
 	height: auto;
-	padding-right: 60px;
 	width: auto;
 }
 
@@ -66,12 +65,7 @@
 	font-size: 30px;
 	padding-top: 20px;
 	font-weight: 500;
-	color: rgb(255, 255, 255, 0.8);
-}
-
-.color {
-	color: #046d33;
-	transition: all 0.4s ease;
+	color: #fff;
 }
 
 .slash {
@@ -147,8 +141,10 @@
 }
 
 .home-image .img-container {
-	height: 100vh;
+	/* height: 100vh; */
 	float: right;
+	position: fixed;
+	bottom: -1%;
 }
 
 .home-image .img-container:after {
