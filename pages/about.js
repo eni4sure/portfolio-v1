@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import { TopNavigationBar, Footer } from "../app/components";
 
@@ -9,6 +10,10 @@ import deploySvgIcon from "../public/assets/images/services-icon/services-deploy
 export default function About() {
 	return (
 		<>
+			<Head>
+				<title>About &mdash; Eniola Osabiya || @eni4sure</title>{" "}
+			</Head>
+
 			<TopNavigationBar />
 
 			<div className="about-section-wrapper">

@@ -55,7 +55,7 @@ export default function Home() {
 				</div>
 				<div className="home-image">
 					<div className="img-container">
-						<Image src={EniolaOsabiyaImage} placeholder="blur" alt="Eniola Osabiya" layout="fill" />
+						<Image src={EniolaOsabiyaImage} placeholder="blur" alt="Eniola Osabiya" />
 					</div>
 				</div>
 			</div>

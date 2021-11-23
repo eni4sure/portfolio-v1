@@ -142,9 +142,8 @@
 
 .home-image {
 	float: right;
-	width: 70vh;
+	width: 75vh;
 	height: 100vh;
-	position: relative;
 }
 
 .home-image .img-container {

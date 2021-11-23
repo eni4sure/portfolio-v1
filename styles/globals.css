@@ -37,6 +37,7 @@ html {
 /* Pages */
 @import url("Home.css");
 @import url("About.css");
+@import url("Portfolio.css");
 
 /* Components */
 @import url("Footer.css");
