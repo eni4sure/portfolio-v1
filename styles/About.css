@@ -142,7 +142,7 @@
 }
 
 .service {
-	height: 30em;
+	height: 25em;
 	width: 28%;
 	margin: 1.5%;
 	background-color: #191919;
@@ -289,8 +289,8 @@
 	}
 
 	.about-main .first-paragraph {
-		width: 95%;
-		padding: 15px;
+		width: 100%;
+		padding: 0;
 	}
 
 	.about-main .first-paragraph .color {
@@ -310,8 +310,6 @@
 	}
 
 	.about-img {
-		width: 100%;
-		height: 250px;
 		text-align: center;
 		overflow: hidden;
 		border-radius: 10%;
@@ -339,5 +337,22 @@
 
 	.progress-wrapper {
 		height: 30px;
+	}
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 551px) {
+	.about-main {
+		padding-left: 10px;
+		padding-right: 10px;
+		flex-direction: column-reverse;
+	}
+
+	.about-main .first-paragraph {
+		width: 100%;
+	}
+
+	.service {
+		height: auto;
+		width: 45%;
 	}
 }

@@ -28,7 +28,7 @@ export default function About() {
 						<div className="first-paragraph">
 							<span className="first-line">
 								I&#39;m a FullStack
-								<span className="color">(BE-Heavy)</span> Dev. based in Lagos, Nigeria.{" "}
+								<span className="color"> (BE-Heavy)</span> Dev. based in Lagos, Nigeria.{" "}
 							</span>
 							<br />
 							<span className="second-line">
