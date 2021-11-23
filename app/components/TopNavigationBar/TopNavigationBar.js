@@ -1,5 +1,6 @@
 import React from "react";
 import { gsap } from "gsap";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function TopNavigationBar() {
@@ -37,18 +38,26 @@ export default function TopNavigationBar() {
 						<span className="close-icon close-second" />
 					</div>
 					<div className="navigation-links-wrapper">
-						<a className="link" big-overlay-text="HOME">
-							HOME
-						</a>
-						<a className="link" big-overlay-text="ABOUT">
-							ABOUT
-						</a>
-						<a className="link" big-overlay-text="PORTFOLIO">
-							PORTFOLIO
-						</a>
-						<a className="link" big-overlay-text="CONTACT">
-							CONTACT
-						</a>
+						<Link href="/">
+							<a className="link" big-overlay-text="HOME">
+								HOME
+							</a>
+						</Link>
+						<Link href="/about">
+							<a className="link" big-overlay-text="ABOUT">
+								ABOUT
+							</a>
+						</Link>
+						<Link href="/portfolio">
+							<a className="link" big-overlay-text="PORTFOLIO">
+								PORTFOLIO
+							</a>
+						</Link>
+						<Link href="/contact">
+							<a className="link" big-overlay-text="CONTACT">
+								CONTACT
+							</a>
+						</Link>
 					</div>
 				</div>
 			</div>
