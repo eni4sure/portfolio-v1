@@ -18,14 +18,14 @@ function MyApp({ Component, pageProps }) {
 				<meta property="og:url" content="https://eniolaosabiya.com/" />
 				<meta property="og:title" content="Eniola Osabiya - @eni4sure" />
 				<meta property="og:description" content="17yo FullStack Dev, #TeensInTech Advocate, DevOps Engineer" />
-				{/* <meta property="og:image" content="https://eniolaosabiya.com/assets/images/" /> */}
+				<meta property="og:image" content="https://eniolaosabiya.com/assets/site-preview.png" />
 
 				{/* <!-- Twitter --> */}
 				<meta property="twitter:card" content="summary_large_image" />
 				<meta property="twitter:url" content="https://eniolaosabiya.com/" />
 				<meta property="twitter:title" content="Eniola Osabiya - @eni4sure" />
 				<meta property="twitter:description" content="17yo FullStack Dev, #TeensInTech Advocate, DevOps Engineer" />
-				{/* <meta property="twitter:image" content="https://eniolaosabiya.com/assets/images/" /> */}
+				<meta property="twitter:image" content="https://eniolaosabiya.com/assets/site-preview.png" />
 			</Head>
 
 			<Component {...pageProps} />
