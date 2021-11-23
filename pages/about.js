@@ -11,7 +11,7 @@ export default function About() {
 	return (
 		<>
 			<Head>
-				<title>About &mdash; Eniola Osabiya || @eni4sure</title>{" "}
+				<title>About &mdash; Eniola Osabiya || @eni4sure</title>
 			</Head>
 
 			<TopNavigationBar />
@@ -54,7 +54,7 @@ export default function About() {
 						</div>
 						<div className="about-img">
 							<div className="img-container">
-								<Image src={EniolaOsabiyaNFT} layout="responsive" placeholder="blur" alt="eniola-osabiya" />
+								<Image src={EniolaOsabiyaNFT} placeholder="blur" alt="eniola-osabiya" />
 							</div>
 						</div>
 					</div>

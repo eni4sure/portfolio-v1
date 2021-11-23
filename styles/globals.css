@@ -6,6 +6,7 @@
 	margin: 0%;
 	box-sizing: border-box;
 	font-family: "Shippori Antique", sans-serif;
+	max-width: 100%;
 }
 
 a {
@@ -38,6 +39,7 @@ html {
 @import url("Home.css");
 @import url("About.css");
 @import url("Portfolio.css");
+@import url("Contact.css");
 
 /* Components */
 @import url("Footer.css");
