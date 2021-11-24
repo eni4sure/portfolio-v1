@@ -22,9 +22,15 @@ export default async function handler(req, res) {
 		from: email,
 		to: "eosabiya@gmail.com",
 		replyTo: email,
-		subject: `${subject} —  eniolaosabiya.com`,
+		subject: `${subject} — Contact Form: eniolaosabiya.com`,
 		text: message,
-		html: `<p>${message.replace(/(?:\r\n|\r|\n)/g, "<br>")}</p>`,
+		html: `
+			<h1>New message from ${email}</h1>
+			<h2>Name:</h2>
+			<h3>${name}</h3>
+			<h2>Message:</h2>
+			<h3>${message}</h3>
+		`,
 	};
 
 	try {
