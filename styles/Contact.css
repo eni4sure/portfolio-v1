@@ -105,6 +105,7 @@
 	border: none;
 	color: #fff;
 	font-size: 18px;
+	resize: none !important;
 }
 
 .myForm button {
