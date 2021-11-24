@@ -28,6 +28,8 @@ export default async function handler(req, res) {
 			<h1>New message from ${email}</h1>
 			<h2>Name:</h2>
 			<h3>${name}</h3>
+			<h2>Subject:</h2>
+			<h3>${subject}</h3>
 			<h2>Message:</h2>
 			<h3>${message}</h3>
 		`,
