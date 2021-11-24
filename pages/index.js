@@ -7,6 +7,7 @@ import instagramSvgIcon from "../public/assets/images/social-icon/social-icon-in
 import githubSvgIcon from "../public/assets/images/social-icon/social-icon-github.svg";
 import linkedinSvgIcon from "../public/assets/images/social-icon/social-icon-linkedin.svg";
 import twitterSvgIcon from "../public/assets/images/social-icon/social-icon-twitter.svg";
+import youtubeSvgIcon from "../public/assets/images/social-icon/social-icon-youtube.svg";
 import contactSendEmailSvgIcon from "../public/assets/images/contact-icons/contact-send-email.svg";
 
 export default function Home({ pageViews }) {
@@ -20,13 +21,16 @@ export default function Home({ pageViews }) {
 						<Image src={instagramSvgIcon} width={30} height={30} alt="instagram-logo" />
 					</a>
 					<a href="https://github.com/eni4sure" target="_blank" rel="noreferrer" className="social-media">
-						<Image src={githubSvgIcon} width={30} height={30} alt="instagram-logo" />
+						<Image src={githubSvgIcon} width={30} height={30} alt="github-logo" />
 					</a>
 					<a href="https://linkedin.com/in/eniola-osabiya" target="_blank" rel="noreferrer" className="social-media">
-						<Image src={linkedinSvgIcon} width={30} height={30} alt="instagram-logo" />
+						<Image src={linkedinSvgIcon} width={30} height={30} alt="linkedin-logo" />
 					</a>
 					<a href="https://twitter.com/eni4sure" target="_blank" rel="noreferrer" className="social-media">
-						<Image src={twitterSvgIcon} width={30} height={30} alt="instagram-logo" />
+						<Image src={twitterSvgIcon} width={30} height={30} alt="twitter-logo" />
+					</a>
+					<a href="https://www.youtube.com/c/EniolaOsabiya" target="_blank" rel="noreferrer" className="social-media">
+						<Image src={youtubeSvgIcon} width={30} height={30} alt="youtube-logo" />
 					</a>
 				</div>
 				<div className="home-content">
