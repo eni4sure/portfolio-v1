@@ -2,6 +2,11 @@
 const nodemailer = require("nodemailer");
 
 export default async function handler(req, res) {
+	return res.json({
+		email: process.env.NODEMAIL_CONTACT_EMAIL,
+		phone: process.env.NODEMAIL_CONTACT_PASSWORD,
+	});
+
 	const { name, email, subject, message } = req.body;
 
 	if (!name || !email || !subject || !message) {
