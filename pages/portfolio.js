@@ -50,7 +50,7 @@ export default function Portfolio({ pageViews }) {
 							<h2>Eniola Osabiya - v1</h2>
 							<p>This is my personal portfolio website (v1). Built with NextJS 😊</p>
 							<div className="button-wrapper">
-								<a href="https://eniolaosabiya.com" target="_blank" rel="noreferrer">
+								<a href="https://www.eniolaosabiya.com" target="_blank" rel="noreferrer">
 									<button>
 										<span className="index">
 											View Project
