@@ -44,14 +44,14 @@ function MyApp({ Component, pageProps }) {
 				<meta property="og:url" content="https://www.eniolaosabiya.com/" />
 				<meta property="og:title" content="Eniola Osabiya || @eni4sure" />
 				<meta property="og:description" content="17yo FullStack Dev, #TeensInTech Advocate, DevOps Engineer" />
-				<meta property="og:image" content="https://www.eniolaosabiya.com/assets/site-preview.png" />
+				<meta property="og:image" content="//www.eniolaosabiya.com/assets/site-preview.png" />
 
 				{/* <!-- Twitter --> */}
 				<meta property="twitter:card" content="summary_large_image" />
 				<meta property="twitter:url" content="https://www.eniolaosabiya.com/" />
 				<meta property="twitter:title" content="Eniola Osabiya || @eni4sure" />
 				<meta property="twitter:description" content="17yo FullStack Dev, #TeensInTech Advocate, DevOps Engineer" />
-				<meta property="twitter:image" content="https://www.eniolaosabiya.com/assets/site-preview.png" />
+				<meta property="twitter:image" content="//www.eniolaosabiya.com/assets/site-preview.png" />
 			</Head>
 
 			{isLoading ? <div className="page-switch-animation" /> : <Component pageViews={pageViews} {...pageProps} />}
