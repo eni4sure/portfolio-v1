@@ -3,6 +3,7 @@ import Image from "next/image";
 import { TopNavigationBar, Footer } from "../app/components";
 
 import mywebsitev1PreviewImage from "../public/assets/images/portfolio/portfolio-mywebsitev1.png";
+import wordfindnaijaPreviewImage from "../public/assets/images/portfolio/portfolio-wordfindnaija.png";
 import zurichatPreviewImage from "../public/assets/images/portfolio/portfolio-zurichat.png";
 import zurichessPreviewImage from "../public/assets/images/portfolio/portfolio-zurichess.png";
 import fixlancerPreviewImage from "../public/assets/images/portfolio/portfolio-fixlancer.png";
@@ -43,7 +44,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={mywebsitev1PreviewImage} placeholder="blur" alt="zurichat-porject-preview-image" />
+								<Image src={mywebsitev1PreviewImage} placeholder="blur" alt="mywebsitev1-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -64,7 +65,28 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={zurichatPreviewImage} placeholder="blur" alt="zurichat-porject-preview-image" />
+								<Image src={wordfindnaijaPreviewImage} placeholder="blur" alt="wordfindnaija-project-preview-image" />
+							</div>
+						</div>
+						<div className="portfolio-text">
+							<h2>Word Find Naija</h2>
+							<p>Word Find Naija is an easy-to-play puzzle game for Nigerians. The goal is to find all the Nigerian slangs and trending words to complete a stage.</p>
+							<div className="button-wrapper">
+								<a href="https://oandoideas.github.io/word-find-naija" target="_blank" rel="noreferrer">
+									<button>
+										<span className="index">
+											View Project
+											<i className="gg-arrow-right" />
+										</span>
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div className="portfolio">
+						<div className="portfolio-image">
+							<div className="img-container">
+								<Image src={zurichatPreviewImage} placeholder="blur" alt="zurichat-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -88,7 +110,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={zurichessPreviewImage} placeholder="blur" alt="zurichess-porject-preview-image" />
+								<Image src={zurichessPreviewImage} placeholder="blur" alt="zurichess-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -109,7 +131,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={fixlancerPreviewImage} placeholder="blur" alt="fixlancer-porject-preview-image" />
+								<Image src={fixlancerPreviewImage} placeholder="blur" alt="fixlancer-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -130,7 +152,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={reliantgadgetsPreviewImage} placeholder="blur" alt="medicreen-porject-preview-image" />
+								<Image src={reliantgadgetsPreviewImage} placeholder="blur" alt="medicreen-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -151,7 +173,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={medicreenPreviewImage} placeholder="blur" alt="medicreen-porject-preview-image" />
+								<Image src={medicreenPreviewImage} placeholder="blur" alt="medicreen-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -175,7 +197,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={tertPreviewImage} placeholder="blur" alt="tert-porject-preview-image" />
+								<Image src={tertPreviewImage} placeholder="blur" alt="tert-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -196,7 +218,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={customerpaymePreviewImage} placeholder="blur" alt="tert-porject-preview-image" />
+								<Image src={customerpaymePreviewImage} placeholder="blur" alt="tert-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -219,7 +241,7 @@ export default function Portfolio({ pageViews }) {
 					{/* <div class="portfolio">
 						<div class="portfolio-image">
 							<div class="img-container">
-								<Image src={mysvotePreviewImage} placeholder="blur" alt="mysvote-porject-preview-image">
+								<Image src={mysvotePreviewImage} placeholder="blur" alt="mysvote-project-preview-image">
 							</div>
 						</div>
 						<div class="portfolio-text">
@@ -240,7 +262,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={nuledgePreviewImage} placeholder="blur" alt="nuledge-porject-preview-image" />
+								<Image src={nuledgePreviewImage} placeholder="blur" alt="nuledge-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -264,7 +286,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={oricertPreviewImage} placeholder="blur" alt="oricert-porject-preview-image" />
+								<Image src={oricertPreviewImage} placeholder="blur" alt="oricert-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -285,7 +307,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={dryjokesPreviewImage} placeholder="blur" alt="dryjokes-porject-preview-image" />
+								<Image src={dryjokesPreviewImage} placeholder="blur" alt="dryjokes-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -306,7 +328,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={nanadaycarePreviewImage} placeholder="blur" alt="nanadaycare-porject-preview-image" />
+								<Image src={nanadaycarePreviewImage} placeholder="blur" alt="nanadaycare-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -330,7 +352,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={edsoftaPreviewImage} placeholder="blur" alt="edsofta-porject-preview-image" />
+								<Image src={edsoftaPreviewImage} placeholder="blur" alt="edsofta-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -354,7 +376,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={domathzPreviewImage} placeholder="blur" alt="domathz-porject-preview-image" />
+								<Image src={domathzPreviewImage} placeholder="blur" alt="domathz-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -378,7 +400,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={covidchatbotPreviewImage} placeholder="blur" alt="covidchatbot-porject-preview-image" />
+								<Image src={covidchatbotPreviewImage} placeholder="blur" alt="covidchatbot-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -399,7 +421,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={mfmteensPreviewImage} placeholder="blur" alt="mfmteens-porject-preview-image" />
+								<Image src={mfmteensPreviewImage} placeholder="blur" alt="mfmteens-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -420,7 +442,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={papayaexPreviewImage} placeholder="blur" alt="papayaex-porject-preview-image" />
+								<Image src={papayaexPreviewImage} placeholder="blur" alt="papayaex-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -441,7 +463,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={facedetectorPreviewImage} placeholder="blur" alt="facedetector-porject-preview-image" />
+								<Image src={facedetectorPreviewImage} placeholder="blur" alt="facedetector-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
@@ -462,7 +484,7 @@ export default function Portfolio({ pageViews }) {
 					<div className="portfolio">
 						<div className="portfolio-image">
 							<div className="img-container">
-								<Image src={lmsPreviewImage} placeholder="blur" alt="lms-porject-preview-image" />
+								<Image src={lmsPreviewImage} placeholder="blur" alt="lms-project-preview-image" />
 							</div>
 						</div>
 						<div className="portfolio-text">
