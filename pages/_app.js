@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Script from "next/script";
 import Router from "next/router";
 import "../styles/globals.css";
 
@@ -57,6 +58,9 @@ function MyApp({ Component, pageProps }) {
 			</Head>
 
 			<>{isLoading ? <div className="page-switch-animation" /> : <Component pageViews={pageViews} {...pageProps} />}</>
+
+			<Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-KHBCY4MPXZ" />
+			<Script strategy="lazyOnload" src="/assets/js/analytics.js" />
 		</>
 	);
 }
