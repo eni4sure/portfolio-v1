@@ -43,7 +43,7 @@ export default function Home({ pageViews }) {
 							<span className="txt-rotate color" style={{ display: "inline-flex" }}>
 								<Typewriter
 									className="color"
-									options={{ strings: [" a FullStack Dev.", " 17yrs Old.", " a #TeensInTech Advocate."], autoStart: true, loop: true, changeDelay: 0.01 }}
+									options={{ strings: [" a FullStack Developer", " a Cloud Engineer.", " a #Genztechie."], autoStart: true, loop: true, changeDelay: 0.01 }}
 								/>
 							</span>
 						</div>

@@ -27,8 +27,7 @@ export default function About({ pageViews }) {
 					<div className="about-main">
 						<div className="first-paragraph">
 							<span className="first-line">
-								I&#39;m a FullStack
-								<span className="color"> (BE-Heavy)</span> Dev. based in Lagos, Nigeria.{" "}
+								I&#39;m a Full Stack Dev. &amp; Cloud Engineer
 							</span>
 							<br />
 							<span className="second-line">
@@ -42,13 +41,11 @@ export default function About({ pageViews }) {
 								<br />
 								&mdash; Strengths: Debugging, Writing Logic, Abstraction.
 								<br />
-								&mdash; Weakness: writing CSS :)
-								<br />
-								Coding and Tech has been so fun and I looveeeee debugging and fixing bugs.
+								Coding and Tech is so fun and I looveeeee debugging and fixing bugs.
 							</span>
 							<div className="cv">
 								<a href="https://www.linkedin.com/in/eniola-osabiya/" rel="noreferrer" target="_blank">
-									<button>Download CV</button>
+									<button>Go to CV</button>
 								</a>
 							</div>
 						</div>
@@ -113,7 +110,7 @@ export default function About({ pageViews }) {
 							</div>
 							<div className="progress-wrapper">
 								<div className="progress-inner" style={{ width: "85%" }}>
-									85%
+									95%
 								</div>
 							</div>
 						</div>
@@ -123,7 +120,7 @@ export default function About({ pageViews }) {
 							</div>
 							<div className="progress-wrapper">
 								<div className="progress-inner" style={{ width: "90%" }}>
-									90%
+									92%
 								</div>
 							</div>
 						</div>
@@ -153,7 +150,7 @@ export default function About({ pageViews }) {
 							</div>
 							<div className="progress-wrapper">
 								<div className="progress-inner" style={{ width: "86%" }}>
-									86%
+									90%
 								</div>
 							</div>
 						</div>
@@ -193,7 +190,7 @@ export default function About({ pageViews }) {
 							</div>
 							<div className="progress-wrapper">
 								<div className="progress-inner" style={{ width: "87%" }}>
-									87%
+									88%
 								</div>
 							</div>
 						</div>
