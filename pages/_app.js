@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
 				{/* <!-- Primary Meta Tags --> */}
 				<title>Eniola Osabiya || @eni4sure</title>
 				<meta name="title" content="Eniola Osabiya || @eni4sure" />
-				<meta name="description" content="17yo FullStack Dev, #TeensInTech Advocate, DevOps Engineer" />
+				<meta name="description" content="Full Stack Developer and Cloud Engineer with 5 years of building experience. #GenZtechie" />
 
 				{/* Favicon */}
 				<link rel="icon" type="image/png" href="/favicon.ico" />
@@ -44,16 +44,14 @@ function MyApp({ Component, pageProps }) {
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://www.eniolaosabiya.com/" />
 				<meta property="og:title" content="Eniola Osabiya || @eni4sure" />
-				<meta property="og:description" content="17yo FullStack Dev, #TeensInTech Advocate, DevOps Engineer" />
+				<meta property="og:description" content="Full Stack Developer and Cloud Engineer with 5 years of building experience. #GenZtechie" />
 				<meta property="og:image" content="https://www.eniolaosabiya.com/assets/site-preview.png" />
-				<meta property="og:updated_time" content="2021-12-06T09:23:21.056Z" />
-				{/* <meta property="og:updated_time" content={new Date().toISOString()} /> */}
 
 				{/* <!-- Twitter --> */}
 				<meta property="twitter:card" content="summary_large_image" />
 				<meta property="twitter:url" content="https://www.eniolaosabiya.com/" />
 				<meta property="twitter:title" content="Eniola Osabiya || @eni4sure" />
-				<meta property="twitter:description" content="17yo FullStack Dev, #TeensInTech Advocate, DevOps Engineer" />
+				<meta property="twitter:description" content="Full Stack Developer and Cloud Engineer with 5 years of building experience. #GenZtechie" />
 				<meta property="twitter:image" content="https://www.eniolaosabiya.com/assets/site-preview.png" />
 			</Head>
 
