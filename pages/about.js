@@ -31,8 +31,8 @@ export default function About({ pageViews }) {
 							</span>
 							<br />
 							<span className="second-line">
-								Software Engineer with over 6 years of building experience and a strong background in backend (typescript/NodeJS), cloud computing (AWS/docker/databases), mobile development (react-native/expo) and frontend (React/NextJS/Tailwind).
-								<br />
+								I'm a software engineer with over 6 years of building experience and a strong background in backend (typescript/NodeJS), cloud computing (AWS/docker/databases), mobile development (react-native/expo) and frontend (React/NextJS/Tailwind).
+								<br /><br />
 								I am drawn towards creating or working on solutions that drive progress and make a tangible impact. I have a track record of initiating and leading successful project teams and I thrive in challenging, fast-paced environments. Also able to work effectively in both team and individual settings.
 								<br /><br />
 								Heavily invested in community work and volunteering, founded the Fastest Growing Community for Gen-Zs in Tech in Africa. 
