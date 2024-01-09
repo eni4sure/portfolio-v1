@@ -145,7 +145,7 @@ export default function Contact({ pageViews }) {
 								<div className="contact-info-icon-text">
 									<h6>Email</h6>
 									<p>
-										<a href="mailto:eosabiya@gmail.com">hey@eniolaosabiya.com</a>
+										<a href="mailto:hey@eniolaosabiya.com">hey@eniolaosabiya.com</a>
 									</p>
 								</div>
 							</div>
