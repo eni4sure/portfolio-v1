@@ -27,21 +27,15 @@ export default function About({ pageViews }) {
 					<div className="about-main">
 						<div className="first-paragraph">
 							<span className="first-line">
-								I&#39;m a Full Stack Dev. &amp; Cloud Engineer
+								rockstar Software Engineer.
 							</span>
 							<br />
 							<span className="second-line">
-								I started my coding journey in 2016, when I was 12yrs Old. I learnt how to code from my church (
-								<a href="https://mfmteens.org/" target="_blank" rel="noreferrer">
-									MFM
-								</a>
-								).
+								Software Engineer with over 6 years of building experience and a strong background in backend (typescript/NodeJS), cloud computing (AWS/docker/databases), mobile development (react-native/expo) and frontend (React/NextJS/Tailwind).
 								<br />
-								Over the years I&#39;ve successfully developed custom solutions to solve challenges and engineered designs to meet predetermined functionality goals.
-								<br />
-								&mdash; Strengths: Debugging, Writing Logic, Abstraction.
-								<br />
-								Coding and Tech is so fun and I looveeeee debugging and fixing bugs.
+								I am drawn towards creating or working on solutions that drive progress and make a tangible impact. I have a track record of initiating and leading successful project teams and I thrive in challenging, fast-paced environments. Also able to work effectively in both team and individual settings.
+								<br /><br />
+								Heavily invested in community work and volunteering, founded the Fastest Growing Community for Gen-Zs in Tech in Africa. 
 							</span>
 							<div className="cv">
 								<a href="https://www.linkedin.com/in/eniola-osabiya/" rel="noreferrer" target="_blank">
