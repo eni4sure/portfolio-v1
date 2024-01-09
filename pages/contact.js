@@ -137,15 +137,7 @@ export default function Contact({ pageViews }) {
 									<p>Eniola Osabiya</p>
 								</div>
 							</div>
-							<div className="contect-info-content-line">
-								<div className="icon">
-									<Image src={locationContactIcon} width={52} height={52} alt="location-icon" />
-								</div>
-								<div className="contact-info-icon-text">
-									<h6>Location</h6>
-									<p>Lagos State, Nigeria.</p>
-								</div>
-							</div>
+
 							<div className="contect-info-content-line">
 								<div className="icon">
 									<Image src={emailContactIcon} width={52} height={52} alt="email-icon" />
@@ -153,7 +145,7 @@ export default function Contact({ pageViews }) {
 								<div className="contact-info-icon-text">
 									<h6>Email</h6>
 									<p>
-										<a href="mailto:eosabiya@gmail.com">eosabiya@gmail.com</a>
+										<a href="mailto:eosabiya@gmail.com">hey@eniolaosabiya.com</a>
 									</p>
 								</div>
 							</div>
